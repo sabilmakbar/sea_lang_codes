@@ -1,16 +1,18 @@
 # SEA Lang Codes Collection
-Mini Repo Containing Lang Codes (ISO 639-1, ISO 639-2, and ISO 639-3) from Countries in Southeast Asia (SEA).
+Mini Repo Containing Lang Codes (ISO 639-1, ISO 639-2, or ISO 639-3) from Countries in Southeast Asia (SEA).
 
 ## Goal
 The NLP Research & Development activities in SEA is starting to be recognized throughout the world, due to its potential of cultural, linguistic, and economy. However there are no accessible resources for activist or practitioners to obtain relevant information for Lang Codes that are spoken/originated in SEA.
 This mini-repo resource is aimed to aid people to quickly check lang codes in SEA region, for the following purposes:
-1. Check the lang coverage in SEA and Evaluate its Competency for any models released.
-2. Filter and Extract any new datasets released for SEA languages.
+1. Do a quick-check on the lang coverage in for any new models released
+2. Filter and Extract any new datasets released that includes SEA languages.
 
+## Getting Started
 The list of langs informations are available on ```json_resources/sea_country_lang_full_info.json```, and its lite version (containing json dict of ```country->lang_list``` only) available on ```json_resources/sea_country_lang_list.json```
 
+## Construction, explained Step-by-Step
 The collection itself was constructed using a hybrid approach:
-1. The initial collection were retrieved from [```babel py```](https://babel.pocoo.org/en/latest/api/languages.html), using manually constructed SEA Country Info available on ```json_resources/sea_country_info_alpha2.json``` and stored in ```json_resources/sea_country_langs_babel.json```. The lang names were obtained from [```iso639-lang py```](https://pypi.org/project/iso639-lang/) package by decoding its code using ```ISO 639-1```, ```ISO 639-2```, or ```ISO 639-3```.
+1. The initial collection were retrieved from [```Babel```](https://babel.pocoo.org/en/latest/api/languages.html), using manually constructed SEA Country Info available on ```json_resources/sea_country_info_alpha2.json``` and stored in ```json_resources/sea_country_langs_babel.json```. The lang names were obtained from [```iso639-lang```](https://pypi.org/project/iso639-lang/) package by decoding its code using ```ISO 639-1```, ```ISO 639-2```, or ```ISO 639-3```.
 2. The collection then filtered using manual curation effort w/ codes available in ```json_add_remove_collection.py```. The collection will only consider languages that were originated and/or commonly used by indigenous people/tribes in that Country.
 3. Step 1 and Step 2 results are filtered and/or added by using ```code_updater.py```
 
