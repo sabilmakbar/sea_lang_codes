@@ -1,0 +1,85 @@
+{
+    "Indonesia": [
+        {
+            "code": "id",
+            "is_current": true
+        }
+    ],
+    "Singapore": [
+        {
+            "code": "sg",
+            "is_current": true
+        }
+    ],
+    "Malaysia": [
+        {
+            "code": "my",
+            "is_current": true
+        }
+    ],
+    "Thailand": [
+        {
+            "code": "th",
+            "desc": "Alternate Name: Siam",
+            "is_current": true
+        }
+    ],
+    "Myanmar": [
+        {
+            "code": "mm",
+            "is_current": true
+        },
+        {
+            "code": "bu",
+            "desc": "Prior name: Burma",
+            "is_current": false
+        }
+    ],
+    "Timor-Leste": [
+        {
+            "code": "tl",
+            "desc": "Name: Timor-Leste",
+            "is_current": true
+        },
+        {
+            "code": "tp",
+            "desc": "Prior name: East Timor or Timor Portugese",
+            "is_current": false
+        }
+    ],
+    "Brunei": [
+        {
+            "code": "bn",
+            "desc": "Alternate name: Brunei Darussalam",
+            "is_current": true
+        }
+    ],
+    "Laos": [
+        {
+            "code": "la",
+            "desc": "Alternate name: Lao PDR",
+            "is_current": true
+        }
+    ],
+    "Vietnam": [
+        {
+            "code": "vn",
+            "desc": "Alternate name: Viet Nam",
+            "is_current": true
+        }
+    ],
+    "Cambodia": [
+        {
+            "code": "kh",
+            "desc": "Alternate name: Khmer Republic",
+            "is_current": true
+        }
+    ],
+    "Philippines": [
+        {
+            "code": "ph",
+            "desc": "Alternate name: Pilipinas",
+            "is_current": true
+        }
+    ]
+}

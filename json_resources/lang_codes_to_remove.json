@@ -1,0 +1,27 @@
+{
+    "Indonesia": [
+        "ms_Arab",
+        "zh_Hant"
+    ],
+    "Singapore": [
+        "pa"
+    ],
+    "Malaysia": [],
+    "Laos": [],
+    "Timor-Leste": [],
+    "Cambodia": [],
+    "Thailand": [
+        "zh_Hant"
+    ],
+    "Myanmar": [],
+    "Brunei": [
+        "zh_Hant",
+        "ms_Arab"
+    ],
+    "Vietnam": [
+        "zh_Hant"
+    ],
+    "Philippines": [
+        "zh_Hant"
+    ]
+}

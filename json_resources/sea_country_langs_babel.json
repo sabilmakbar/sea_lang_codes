@@ -1,0 +1,630 @@
+{
+    "Indonesia": {
+        "id": {
+            "population_percent": 64.0,
+            "official_status": "official",
+            "Name": "Indonesian",
+            "iso_identifier": "ISO 639-1"
+        },
+        "jv": {
+            "population_percent": 34.0,
+            "official_status": null,
+            "Name": "Javanese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "su": {
+            "population_percent": 12.0,
+            "official_status": null,
+            "Name": "Sundanese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "mad": {
+            "population_percent": 6.3,
+            "official_status": null,
+            "Name": "Madurese",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ms": {
+            "population_percent": 3.4,
+            "official_status": null,
+            "Name": "Malay (macrolanguage)",
+            "iso_identifier": "ISO 639-1"
+        },
+        "min": {
+            "population_percent": 3.0,
+            "official_status": null,
+            "Name": "Minangkabau",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bew": {
+            "population_percent": 2.1,
+            "official_status": null,
+            "Name": "Betawi",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ban": {
+            "population_percent": 1.8,
+            "official_status": null,
+            "Name": "Balinese",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bug": {
+            "population_percent": 1.6,
+            "official_status": null,
+            "Name": "Buginese",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bjn": {
+            "population_percent": 1.5,
+            "official_status": null,
+            "Name": "Banjar",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ace": {
+            "population_percent": 1.4,
+            "official_status": null,
+            "Name": "Achinese",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ms_Arab": {
+            "population_percent": 1.2,
+            "official_status": null,
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "sas": {
+            "population_percent": 0.97,
+            "official_status": null,
+            "Name": "Sasak",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bbc": {
+            "population_percent": 0.92,
+            "official_status": null,
+            "Name": "Batak Toba",
+            "iso_identifier": "ISO 639-3"
+        },
+        "zh_Hant": {
+            "population_percent": 0.92,
+            "official_status": null,
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "mak": {
+            "population_percent": 0.73,
+            "official_status": null,
+            "Name": "Makasar",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ljp": {
+            "population_percent": 0.69,
+            "official_status": null,
+            "Name": "Lampung Api",
+            "iso_identifier": "ISO 639-3"
+        },
+        "rej": {
+            "population_percent": 0.46,
+            "official_status": null,
+            "Name": "Rejang",
+            "iso_identifier": "ISO 639-3"
+        },
+        "gor": {
+            "population_percent": 0.41,
+            "official_status": null,
+            "Name": "Gorontalo",
+            "iso_identifier": "ISO 639-3"
+        },
+        "nij": {
+            "population_percent": 0.37,
+            "official_status": null,
+            "Name": "Ngaju",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kge": {
+            "population_percent": 0.32,
+            "official_status": null,
+            "Name": "Komering",
+            "iso_identifier": "ISO 639-3"
+        },
+        "aoz": {
+            "population_percent": 0.27,
+            "official_status": null,
+            "Name": "Uab Meto",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kvr": {
+            "population_percent": 0.14,
+            "official_status": null,
+            "Name": "Kerinci",
+            "iso_identifier": "ISO 639-3"
+        },
+        "lbw": {
+            "population_percent": 0.13,
+            "official_status": null,
+            "Name": "Tolaki",
+            "iso_identifier": "ISO 639-3"
+        },
+        "gay": {
+            "population_percent": 0.12,
+            "official_status": null,
+            "Name": "Gayo",
+            "iso_identifier": "ISO 639-3"
+        },
+        "rob": {
+            "population_percent": 0.11,
+            "official_status": null,
+            "Name": "Tae'",
+            "iso_identifier": "ISO 639-3"
+        },
+        "mdr": {
+            "population_percent": 0.092,
+            "official_status": null,
+            "Name": "Mandar",
+            "iso_identifier": "ISO 639-3"
+        },
+        "sxn": {
+            "population_percent": 0.092,
+            "official_status": null,
+            "Name": "Sangir",
+            "iso_identifier": "ISO 639-3"
+        },
+        "sly": {
+            "population_percent": 0.054,
+            "official_status": null,
+            "Name": "Selayar",
+            "iso_identifier": "ISO 639-3"
+        },
+        "mwv": {
+            "population_percent": 0.024,
+            "official_status": null,
+            "Name": "Mentawai",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Singapore": {
+        "en": {
+            "population_percent": 93.0,
+            "official_status": "official",
+            "Name": "English",
+            "iso_identifier": "ISO 639-1"
+        },
+        "zh": {
+            "population_percent": 77.0,
+            "official_status": "official",
+            "Name": "Chinese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "ms": {
+            "population_percent": 14.0,
+            "official_status": "official",
+            "Name": "Malay (macrolanguage)",
+            "iso_identifier": "ISO 639-1"
+        },
+        "ta": {
+            "population_percent": 2.1,
+            "official_status": "official",
+            "Name": "Tamil",
+            "iso_identifier": "ISO 639-1"
+        },
+        "ml": {
+            "population_percent": 0.16,
+            "official_status": null,
+            "Name": "Malayalam",
+            "iso_identifier": "ISO 639-1"
+        },
+        "pa": {
+            "population_percent": 0.15,
+            "official_status": null,
+            "Name": "Panjabi",
+            "iso_identifier": "ISO 639-1"
+        }
+    },
+    "Malaysia": {
+        "ms": {
+            "population_percent": 75.0,
+            "official_status": "official",
+            "Name": "Malay (macrolanguage)",
+            "iso_identifier": "ISO 639-1"
+        },
+        "en": {
+            "population_percent": 21.0,
+            "official_status": null,
+            "Name": "English",
+            "iso_identifier": "ISO 639-1"
+        },
+        "zh": {
+            "population_percent": 17.0,
+            "official_status": null,
+            "Name": "Chinese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "ta": {
+            "population_percent": 4.2,
+            "official_status": null,
+            "Name": "Tamil",
+            "iso_identifier": "ISO 639-1"
+        },
+        "iba": {
+            "population_percent": 2.5,
+            "official_status": null,
+            "Name": "Iban",
+            "iso_identifier": "ISO 639-3"
+        },
+        "jv": {
+            "population_percent": 1.2,
+            "official_status": null,
+            "Name": "Javanese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "zmi": {
+            "population_percent": 1.2,
+            "official_status": null,
+            "Name": "Negeri Sembilan Malay",
+            "iso_identifier": "ISO 639-3"
+        },
+        "dtp": {
+            "population_percent": 0.56,
+            "official_status": null,
+            "Name": "Kadazan Dusun",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ml": {
+            "population_percent": 0.15,
+            "official_status": null,
+            "Name": "Malayalam",
+            "iso_identifier": "ISO 639-1"
+        },
+        "bug": {
+            "population_percent": 0.079,
+            "official_status": null,
+            "Name": "Buginese",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bjn": {
+            "population_percent": 0.015,
+            "official_status": null,
+            "Name": "Banjar",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Thailand": {
+        "th": {
+            "population_percent": 80.0,
+            "official_status": "official",
+            "Name": "Thai",
+            "iso_identifier": "ISO 639-1"
+        },
+        "en": {
+            "population_percent": 27.0,
+            "official_status": null,
+            "Name": "English",
+            "iso_identifier": "ISO 639-1"
+        },
+        "tts": {
+            "population_percent": 24.0,
+            "official_status": null,
+            "Name": "Northeastern Thai",
+            "iso_identifier": "ISO 639-3"
+        },
+        "nod": {
+            "population_percent": 9.6,
+            "official_status": null,
+            "Name": "Northern Thai",
+            "iso_identifier": "ISO 639-3"
+        },
+        "sou": {
+            "population_percent": 8.0,
+            "official_status": null,
+            "Name": "Southern Thai",
+            "iso_identifier": "ISO 639-3"
+        },
+        "mfa": {
+            "population_percent": 5.0,
+            "official_status": null,
+            "Name": "Pattani Malay",
+            "iso_identifier": "ISO 639-3"
+        },
+        "zh_Hant": {
+            "population_percent": 1.8,
+            "official_status": null,
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "kxm": {
+            "population_percent": 1.7,
+            "official_status": null,
+            "Name": "Northern Khmer",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kdt": {
+            "population_percent": 0.48,
+            "official_status": null,
+            "Name": "Kuy",
+            "iso_identifier": "ISO 639-3"
+        },
+        "mnw": {
+            "population_percent": 0.17,
+            "official_status": null,
+            "Name": "Mon",
+            "iso_identifier": "ISO 639-3"
+        },
+        "shn": {
+            "population_percent": 0.096,
+            "official_status": null,
+            "Name": "Shan",
+            "iso_identifier": "ISO 639-3"
+        },
+        "lcp": {
+            "population_percent": 0.01,
+            "official_status": null,
+            "Name": "Western Lawa",
+            "iso_identifier": "ISO 639-3"
+        },
+        "lwl": {
+            "population_percent": 0.01,
+            "official_status": null,
+            "Name": "Eastern Lawa",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Myanmar": {
+        "my": {
+            "population_percent": 64.0,
+            "official_status": "official",
+            "Name": "Burmese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "shn": {
+            "population_percent": 6.4,
+            "official_status": null,
+            "Name": "Shan",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kac": {
+            "population_percent": 1.7,
+            "official_status": null,
+            "Name": "Kachin",
+            "iso_identifier": "ISO 639-3"
+        },
+        "rhg": {
+            "population_percent": 1.7,
+            "official_status": null,
+            "Name": "Rohingya",
+            "iso_identifier": "ISO 639-3"
+        },
+        "mnw": {
+            "population_percent": 1.5,
+            "official_status": null,
+            "Name": "Mon",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kht": {
+            "population_percent": 0.0075,
+            "official_status": null,
+            "Name": "Khamti",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Timor-Leste": {
+        "pt": {
+            "population_percent": 59.0,
+            "official_status": "official",
+            "Name": "Portuguese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "tet": {
+            "population_percent": 59.0,
+            "official_status": "official",
+            "Name": "Tetum",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Brunei": {
+        "ms": {
+            "population_percent": 93.0,
+            "official_status": "official",
+            "Name": "Malay (macrolanguage)",
+            "iso_identifier": "ISO 639-1"
+        },
+        "zh_Hant": {
+            "population_percent": 11.0,
+            "official_status": null,
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "ms_Arab": {
+            "population_percent": 5.0,
+            "official_status": "official",
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "en": {
+            "population_percent": 1.7,
+            "official_status": null,
+            "Name": "English",
+            "iso_identifier": "ISO 639-1"
+        }
+    },
+    "Laos": {
+        "lo": {
+            "population_percent": 69.0,
+            "official_status": "official",
+            "Name": "Lao",
+            "iso_identifier": "ISO 639-1"
+        },
+        "kjg": {
+            "population_percent": 5.8,
+            "official_status": null,
+            "Name": "Khmu",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kdt": {
+            "population_percent": 0.96,
+            "official_status": null,
+            "Name": "Kuy",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Vietnam": {
+        "vi": {
+            "population_percent": 86.0,
+            "official_status": "official",
+            "Name": "Vietnamese",
+            "iso_identifier": "ISO 639-1"
+        },
+        "zh_Hant": {
+            "population_percent": 1.1,
+            "official_status": null,
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "cjm": {
+            "population_percent": 0.089,
+            "official_status": null,
+            "Name": "Eastern Cham",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Cambodia": {
+        "km": {
+            "population_percent": 89.0,
+            "official_status": "official",
+            "Name": "Khmer",
+            "iso_identifier": "ISO 639-1"
+        },
+        "cja": {
+            "population_percent": 1.6,
+            "official_status": null,
+            "Name": "Western Cham",
+            "iso_identifier": "ISO 639-3"
+        },
+        "kdt": {
+            "population_percent": 0.11,
+            "official_status": null,
+            "Name": "Kuy",
+            "iso_identifier": "ISO 639-3"
+        }
+    },
+    "Philippines": {
+        "en": {
+            "population_percent": 64.0,
+            "official_status": "official",
+            "Name": "English",
+            "iso_identifier": "ISO 639-1"
+        },
+        "fil": {
+            "population_percent": 60.0,
+            "official_status": "official",
+            "Name": "Filipino",
+            "iso_identifier": "ISO 639-3"
+        },
+        "es": {
+            "population_percent": 31.0,
+            "official_status": null,
+            "Name": "Spanish",
+            "iso_identifier": "ISO 639-1"
+        },
+        "ceb": {
+            "population_percent": 24.0,
+            "official_status": "official_regional",
+            "Name": "Cebuano",
+            "iso_identifier": "ISO 639-3"
+        },
+        "ilo": {
+            "population_percent": 9.6,
+            "official_status": "official_regional",
+            "Name": "Iloko",
+            "iso_identifier": "ISO 639-3"
+        },
+        "hil": {
+            "population_percent": 8.4,
+            "official_status": "official_regional",
+            "Name": "Hiligaynon",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bik": {
+            "population_percent": 3.0,
+            "official_status": null,
+            "Name": "Bikol",
+            "iso_identifier": "ISO 639-3"
+        },
+        "war": {
+            "population_percent": 2.9,
+            "official_status": "official_regional",
+            "Name": "Waray (Philippines)",
+            "iso_identifier": "ISO 639-3"
+        },
+        "fbl": {
+            "population_percent": 2.3,
+            "official_status": null,
+            "Name": "West Albay Bikol",
+            "iso_identifier": "ISO 639-3"
+        },
+        "pam": {
+            "population_percent": 2.3,
+            "official_status": null,
+            "Name": "Pampanga",
+            "iso_identifier": "ISO 639-3"
+        },
+        "pag": {
+            "population_percent": 1.4,
+            "official_status": "official_regional",
+            "Name": "Pangasinan",
+            "iso_identifier": "ISO 639-3"
+        },
+        "mdh": {
+            "population_percent": 1.2,
+            "official_status": "official_regional",
+            "Name": "Maguindanaon",
+            "iso_identifier": "ISO 639-3"
+        },
+        "tsg": {
+            "population_percent": 1.1,
+            "official_status": "official_regional",
+            "Name": "Tausug",
+            "iso_identifier": "ISO 639-3"
+        },
+        "zh_Hant": {
+            "population_percent": 0.73,
+            "official_status": null,
+            "Name": "Un-extractable via iso639 lang class!",
+            "iso_identifier": "Unavailable"
+        },
+        "cps": {
+            "population_percent": 0.66,
+            "official_status": null,
+            "Name": "Capiznon",
+            "iso_identifier": "ISO 639-3"
+        },
+        "krj": {
+            "population_percent": 0.39,
+            "official_status": null,
+            "Name": "Kinaray-A",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bto": {
+            "population_percent": 0.28,
+            "official_status": null,
+            "Name": "Rinconada Bikol",
+            "iso_identifier": "ISO 639-3"
+        },
+        "hnn": {
+            "population_percent": 0.016,
+            "official_status": null,
+            "Name": "Hanunoo",
+            "iso_identifier": "ISO 639-3"
+        },
+        "tbw": {
+            "population_percent": 0.0092,
+            "official_status": null,
+            "Name": "Tagbanwa",
+            "iso_identifier": "ISO 639-3"
+        },
+        "bku": {
+            "population_percent": 0.0073,
+            "official_status": null,
+            "Name": "Buhid",
+            "iso_identifier": "ISO 639-3"
+        }
+    }
+}

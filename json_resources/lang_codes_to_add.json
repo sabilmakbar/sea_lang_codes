@@ -1,0 +1,176 @@
+{
+    "Indonesia": {
+        "bhp": {
+            "article_in_wiki": true
+        },
+        "abs": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "mui": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "btk": {
+            "article_in_wiki": true
+        },
+        "jax": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "xmm": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "mqg": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "mkn": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "mfp": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "goq": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "pea": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "mhp": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "mfb": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "btj": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "bve": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "liw": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "hji": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "vkk": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        }
+    },
+    "Malaysia": {
+        "mfa": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "meo": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "zlm": {
+            "macrolang": "msa",
+            "article_in_wiki": false
+        },
+        "zsm": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "mbf": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "ccm": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        },
+        "coa": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        }
+    },
+    "Brunei": {
+        "kxd": {
+            "macrolang": "msa",
+            "article_in_wiki": true
+        }
+    },
+    "Philippines": {
+        "bcl": {
+            "macrolang": "bik",
+            "article_in_wiki": true
+        },
+        "bln": {
+            "macrolang": "bik",
+            "article_in_wiki": true
+        },
+        "cts": {
+            "macrolang": "bik",
+            "article_in_wiki": true
+        },
+        "lbl": {
+            "macrolang": "bik",
+            "article_in_wiki": false
+        },
+        "rbl": {
+            "macrolang": "bik",
+            "article_in_wiki": false
+        },
+        "ubl": {
+            "macrolang": "bik",
+            "article_in_wiki": true
+        },
+        "ebk": {
+            "macrolang": "bnc",
+            "article_in_wiki": true
+        },
+        "lbk": {
+            "macrolang": "bnc",
+            "article_in_wiki": true
+        },
+        "obk": {
+            "macrolang": "bnc",
+            "article_in_wiki": false
+        },
+        "rbk": {
+            "macrolang": "bnc",
+            "article_in_wiki": true
+        },
+        "vbk": {
+            "macrolang": "bnc",
+            "article_in_wiki": true
+        }
+    },
+    "Vietnam": {
+        "hmf": {
+            "macrolang": "hmn",
+            "article_in_wiki": false
+        },
+        "hmv": {
+            "macrolang": "hmn",
+            "article_in_wiki": false
+        }
+    },
+    "Laos": {
+        "hnj": {
+            "macrolang": "hmn",
+            "article_in_wiki": false
+        },
+        "mww": {
+            "macrolang": "hmn",
+            "article_in_wiki": false
+        }
+    }
+}
