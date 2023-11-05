@@ -1,0 +1,41 @@
+{
+    "Bikol": {
+        "code": "bik",
+        "country": [
+            "Philippines"
+        ],
+        "alt_names": [
+            "Bicolano"
+        ]
+    },
+    "Bontok": {
+        "code": "bnc",
+        "country": [
+            "Philippines"
+        ],
+        "alt_names": [
+            "Bontoc",
+            "Finallig"
+        ]
+    },
+    "Hmong": {
+        "code": "hmn",
+        "country": [
+            "Laos",
+            "Myanmar",
+            "Vietnam",
+            "Thailand"
+        ],
+        "alt_names": []
+    },
+    "Malay": {
+        "code": "msa",
+        "country": [
+            "Laos",
+            "Myanmar",
+            "Vietnam",
+            "Thailand"
+        ],
+        "alt_names": []
+    }
+}
