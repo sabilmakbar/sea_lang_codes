@@ -1,5 +1,5 @@
 # SEA Lang Codes Collection
-Mini Repo Containing Lang Codes (ISO 639-3) from Countries in Southeast Asia (SEA).
+Mini Repo Containing Lang Codes (ISO 639-1, ISO 639-2, and ISO 639-3) from Countries in Southeast Asia (SEA).
 
 ## Goal
 The NLP Research & Development activities in SEA is starting to be recognized throughout the world, due to its potential of cultural, linguistic, and economy. However there are no accessible resources for activist or practitioners to obtain relevant information for Lang Codes that are spoken/originated in SEA.
