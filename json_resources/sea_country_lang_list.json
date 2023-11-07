@@ -1,158 +1,218 @@
 {
-    "Indonesia": [
-        "id",
-        "jv",
-        "su",
-        "mad",
-        "ms",
-        "min",
-        "bew",
-        "ban",
-        "bug",
-        "bjn",
-        "ace",
-        "sas",
-        "bbc",
-        "mak",
-        "ljp",
-        "rej",
-        "gor",
-        "nij",
-        "kge",
-        "aoz",
-        "kvr",
-        "lbw",
-        "gay",
-        "rob",
-        "mdr",
-        "sxn",
-        "sly",
-        "mwv",
-        "bhp",
-        "abs",
-        "mui",
-        "btk",
-        "jax",
-        "xmm",
-        "mqg",
-        "mkn",
-        "mfp",
-        "goq",
-        "pea",
-        "mhp",
-        "mfb",
-        "btj",
-        "bve",
-        "liw",
-        "hji",
-        "vkk"
-    ],
-    "Singapore": [
-        "en",
-        "zh",
-        "ms",
-        "ta",
-        "ml"
-    ],
-    "Malaysia": [
-        "ms",
-        "en",
-        "zh",
-        "ta",
-        "iba",
-        "jv",
-        "zmi",
-        "dtp",
-        "ml",
-        "bug",
-        "bjn",
-        "mfa",
-        "meo",
-        "zlm",
-        "zsm",
-        "mbf",
-        "ccm",
-        "coa"
-    ],
-    "Thailand": [
-        "th",
-        "en",
-        "tts",
-        "nod",
-        "sou",
-        "mfa",
-        "kxm",
-        "kdt",
-        "mnw",
-        "shn",
-        "lcp",
-        "lwl"
-    ],
-    "Myanmar": [
-        "my",
-        "shn",
-        "kac",
-        "rhg",
-        "mnw",
-        "kht"
-    ],
-    "Timor-Leste": [
-        "pt",
-        "tet"
-    ],
-    "Brunei": [
-        "ms",
-        "en",
-        "kxd"
-    ],
-    "Laos": [
-        "lo",
-        "kjg",
-        "kdt",
-        "hnj",
-        "mww"
-    ],
-    "Vietnam": [
-        "vi",
-        "cjm",
-        "hmf",
-        "hmv"
-    ],
-    "Cambodia": [
-        "km",
-        "cja",
-        "kdt"
-    ],
-    "Philippines": [
-        "en",
-        "fil",
-        "es",
-        "ceb",
-        "ilo",
-        "hil",
-        "bik",
-        "war",
-        "fbl",
-        "pam",
-        "pag",
-        "mdh",
-        "tsg",
-        "cps",
-        "krj",
-        "bto",
-        "hnn",
-        "tbw",
-        "bku",
-        "bcl",
-        "bln",
-        "cts",
-        "lbl",
-        "rbl",
-        "ubl",
-        "ebk",
-        "lbk",
-        "obk",
-        "rbk",
-        "vbk"
-    ]
+    "Indonesia": {
+        "iso_639_1_code": [
+            "id",
+            "jv",
+            "su",
+            "ms"
+        ],
+        "iso_639_2_code": [
+            "ind",
+            "jav",
+            "sun",
+            "mad",
+            "may",
+            "min",
+            "ban",
+            "bug",
+            "ace",
+            "sas",
+            "mak",
+            "gor",
+            "gay",
+            "mdr",
+            "btk"
+        ],
+        "iso_639_3_code": [
+            "ind",
+            "jav",
+            "sun",
+            "mad",
+            "may",
+            "min",
+            "ban",
+            "bug",
+            "ace",
+            "sas",
+            "mak",
+            "gor",
+            "gay",
+            "mdr",
+            "btk"
+        ]
+    },
+    "Singapore": {
+        "iso_639_1_code": [
+            "en",
+            "zh",
+            "ms",
+            "ta",
+            "ml"
+        ],
+        "iso_639_2_code": [
+            "eng",
+            "chi",
+            "may",
+            "tam",
+            "mal"
+        ],
+        "iso_639_3_code": [
+            "eng",
+            "chi",
+            "may",
+            "tam",
+            "mal"
+        ]
+    },
+    "Malaysia": {
+        "iso_639_1_code": [
+            "ms",
+            "en",
+            "zh",
+            "ta",
+            "jv",
+            "ml"
+        ],
+        "iso_639_2_code": [
+            "may",
+            "eng",
+            "chi",
+            "tam",
+            "iba",
+            "jav",
+            "mal",
+            "bug"
+        ],
+        "iso_639_3_code": [
+            "may",
+            "eng",
+            "chi",
+            "tam",
+            "iba",
+            "jav",
+            "mal",
+            "bug"
+        ]
+    },
+    "Thailand": {
+        "iso_639_1_code": [
+            "th",
+            "en"
+        ],
+        "iso_639_2_code": [
+            "tha",
+            "eng",
+            "shn"
+        ],
+        "iso_639_3_code": [
+            "tha",
+            "eng",
+            "shn"
+        ]
+    },
+    "Myanmar": {
+        "iso_639_1_code": [
+            "my"
+        ],
+        "iso_639_2_code": [
+            "bur",
+            "shn",
+            "kac"
+        ],
+        "iso_639_3_code": [
+            "bur",
+            "shn",
+            "kac"
+        ]
+    },
+    "Timor-Leste": {
+        "iso_639_1_code": [
+            "pt"
+        ],
+        "iso_639_2_code": [
+            "por",
+            "tet"
+        ],
+        "iso_639_3_code": [
+            "por",
+            "tet"
+        ]
+    },
+    "Brunei": {
+        "iso_639_1_code": [
+            "ms",
+            "en"
+        ],
+        "iso_639_2_code": [
+            "may",
+            "eng"
+        ],
+        "iso_639_3_code": [
+            "may",
+            "eng"
+        ]
+    },
+    "Laos": {
+        "iso_639_1_code": [
+            "lo"
+        ],
+        "iso_639_2_code": [
+            "lao"
+        ],
+        "iso_639_3_code": [
+            "lao"
+        ]
+    },
+    "Vietnam": {
+        "iso_639_1_code": [
+            "vi"
+        ],
+        "iso_639_2_code": [
+            "vie"
+        ],
+        "iso_639_3_code": [
+            "vie"
+        ]
+    },
+    "Cambodia": {
+        "iso_639_1_code": [
+            "km"
+        ],
+        "iso_639_2_code": [
+            "khm"
+        ],
+        "iso_639_3_code": [
+            "khm"
+        ]
+    },
+    "Philippines": {
+        "iso_639_1_code": [
+            "en",
+            "es"
+        ],
+        "iso_639_2_code": [
+            "eng",
+            "fil",
+            "spa",
+            "ceb",
+            "ilo",
+            "hil",
+            "bik",
+            "war",
+            "pam",
+            "pag"
+        ],
+        "iso_639_3_code": [
+            "eng",
+            "fil",
+            "spa",
+            "ceb",
+            "ilo",
+            "hil",
+            "bik",
+            "war",
+            "pam",
+            "pag"
+        ]
+    }
 }
