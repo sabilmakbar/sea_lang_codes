@@ -1,5 +1,5 @@
 from iso639 import Lang
-from iso639.iso639 import InvalidLanguageValue
+from iso639.iso639 import InvalidLanguageValue, DeprecatedLanguageValue
 
 def merge_dict_append_values(dict_1, dict_2):
     _combined_dict = {}
@@ -21,19 +21,36 @@ def merge_dict_append_values(dict_1, dict_2):
 
 
 def extract_iso639_names(lang_code: str):
+    keys = ("name", "iso_identifier", "iso_639_1_code", "iso_639_2_code", "iso_639_3_code")
+    _exception_list = (InvalidLanguageValue, DeprecatedLanguageValue)
     try:
-        _lang_name = Lang(pt3=lang_code).name
-        _identifier = "ISO 639-3"
-    except InvalidLanguageValue:
+        lang_obj = Lang(pt3=lang_code)
+        lang_name = lang_obj.name
+        lang_iso639_1 = lang_obj.pt1
+        lang_iso639_2 = lang_obj.pt2b
+        lang_iso639_3 = lang_obj.pt3
+        identifier = "ISO 639-3"
+    except _exception_list:
         try:
-            _lang_name = Lang(pt2=lang_code).name
-            _identifier = "ISO 639-2"
-        except InvalidLanguageValue:
+            lang_obj = Lang(pt2b=lang_code)
+            lang_name = lang_obj.name
+            lang_iso639_1 = lang_obj.pt1
+            lang_iso639_2 = lang_obj.pt2b
+            lang_iso639_3 = lang_obj.pt3
+            identifier = "ISO 639-2"
+        except _exception_list:
             try:
-                _lang_name = Lang(pt1=lang_code).name
-                _identifier = "ISO 639-1"
-            except InvalidLanguageValue:
-                _lang_name = "Un-extractable via iso639 lang class!"
-                _identifier = "Unavailable"
+                lang_obj = Lang(pt1=lang_code)
+                lang_name = lang_obj.name
+                lang_iso639_1 = lang_obj.pt1
+                lang_iso639_2 = lang_obj.pt2b
+                lang_iso639_3 = lang_obj.pt3
+                identifier = "ISO 639-1"
+            except _exception_list:
+                lang_name = "Un-extractable via iso639 lang class!"
+                lang_iso639_1 = "Unavailable"
+                lang_iso639_2 = "Unavailable"
+                lang_iso639_3 = "Unavailable"
+                identifier = "Unavailable"
 
-    return _lang_name, _identifier
+    return dict(zip(keys, (lang_name, identifier, lang_iso639_1, lang_iso639_2, lang_iso639_3)))

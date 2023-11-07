@@ -1,6 +1,5 @@
 import json
 
-from copy import deepcopy
 from utils import extract_iso639_names
 
 if __name__ == "__main__":
@@ -24,7 +23,7 @@ if __name__ == "__main__":
     # add ISO 639 infos in lang_codes_to_add data
     for country, lang_data in lang_codes_to_add.items():
         for lang_code in lang_data.keys():
-            lang_codes_to_add[country][lang_code]["Name"], lang_codes_to_add[country][lang_code]["iso_identifier"] = extract_iso639_names(lang_code)
+            lang_codes_to_add[country][lang_code] =extract_iso639_names(lang_code)
             lang_codes_to_add[country][lang_code]["ingestion_method"] = "Manual Curation"
 
     # remove & add data from lang_dict_info data
@@ -42,6 +41,12 @@ if __name__ == "__main__":
     with open("json_resources/sea_country_lang_full_info.json", "w") as f:
         json.dump(lang_dict_info, f, indent=4)
 
-    lang_dict_info_lite = {country: list(lang_data.keys()) for country, lang_data in lang_dict_info.items()}
+    lang_dict_info_lite = {}
+    for country, lang_data in lang_dict_info.items():
+        iso_639_1_list = [info["iso_639_1_code"] for info in lang_data.values() if info["iso_639_1_code"] not in ("", "Unavailable")]
+        iso_639_2_list = [info["iso_639_2_code"] for info in lang_data.values() if info["iso_639_2_code"] not in ("", "Unavailable")]
+        iso_639_3_list = [info["iso_639_2_code"] for info in lang_data.values() if info["iso_639_2_code"] not in ("", "Unavailable")]
+        lang_dict_info_lite[country] = dict(zip(("iso_639_1_code", "iso_639_2_code", "iso_639_3_code"), (iso_639_1_list, iso_639_2_list, iso_639_3_list)))
+
     with open("json_resources/sea_country_lang_list.json", "w") as f:
         json.dump(lang_dict_info_lite, f, indent=4)
