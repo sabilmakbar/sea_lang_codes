@@ -1084,6 +1084,14 @@
             "iso_639_3_code": "rbk",
             "ingestion_method": "Manual Curation"
         },
+        "tgl": {
+            "name": "Tagalog",
+            "iso_identifier": "ISO 639-3",
+            "iso_639_1_code": "tl",
+            "iso_639_2_code": "tgl",
+            "iso_639_3_code": "tgl",
+            "ingestion_method": "Manual Curation"
+        },
         "vbk": {
             "name": "Southwestern Bontok",
             "iso_identifier": "ISO 639-3",

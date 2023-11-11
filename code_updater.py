@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # add ISO 639 infos in lang_codes_to_add data
     for country, lang_data in lang_codes_to_add.items():
         for lang_code in lang_data.keys():
-            lang_codes_to_add[country][lang_code] =extract_iso639_names(lang_code)
+            lang_codes_to_add[country][lang_code] = extract_iso639_names(lang_code)
             lang_codes_to_add[country][lang_code]["ingestion_method"] = "Manual Curation"
 
     # remove & add data from lang_dict_info data

@@ -53,6 +53,7 @@ if __name__ == "__main__":
             "lbk": {"macrolang": "bnc", "article_in_wiki": True},
             "obk": {"macrolang": "bnc", "article_in_wiki": False},
             "rbk": {"macrolang": "bnc", "article_in_wiki": True},
+            "tgl": {"article_in_wiki": True},
             "vbk": {"macrolang": "bnc", "article_in_wiki": True}
         },
         "Vietnam": {
@@ -83,8 +84,7 @@ if __name__ == "__main__":
             "zh_Hant",
             "ms_Arab"],
         "Vietnam": [
-            "zh_Hant",
-            "ms_Arab"],
+            "zh_Hant"],
         "Philippines": ["zh_Hant"],
     }
 

@@ -188,7 +188,8 @@
     "Philippines": {
         "iso_639_1_code": [
             "en",
-            "es"
+            "es",
+            "tl"
         ],
         "iso_639_2_code": [
             "eng",
@@ -200,7 +201,8 @@
             "bik",
             "war",
             "pam",
-            "pag"
+            "pag",
+            "tgl"
         ],
         "iso_639_3_code": [
             "eng",
@@ -212,7 +214,8 @@
             "bik",
             "war",
             "pam",
-            "pag"
+            "pag",
+            "tgl"
         ]
     }
 }
